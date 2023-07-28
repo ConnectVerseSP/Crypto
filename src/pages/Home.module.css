@@ -1,0 +1,12 @@
+/* Assuming you have a container for the typewriter text */
+.container {
+  position: relative; /* Create a relative positioning context */
+  height: 100vh; /* Adjust the height to your requirement */
+}
+
+.typewriter-container {
+  position: absolute;
+  top: 50%; /* Move the container 50% from the top */
+  left: 80%; /* Move the container 50% from the left */
+  transform: translate(-80%, -80%); /* Center the container both horizontally and vertically */
+}
